@@ -6,9 +6,9 @@ int main() {
     scanf("%d", &radius);
     area = 3.14 * radius * radius;
     circumference = 2 * 3.14 * radius;
-    printf("The area of the radius is : %f", area);
+    printf("The area of the circle is : %f", area);
     printf("\n");
-    printf("The circumference of the radius is : %f", circumference);
+    printf("The circumference of the circle is : %f", circumference);
     return 0;
 
 } 
