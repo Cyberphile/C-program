@@ -9,7 +9,6 @@ int main (){
     scanf("%d", &num2);
     for(i=num1; i<=num2; i++){
         int s=0;
-        //printf("%d", i);
         for(n=1; n<i; n++){
             if (i%n==0){
                 s+=n;
